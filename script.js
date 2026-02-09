@@ -6,7 +6,7 @@ let scale = 1;
 setInterval(() => {
   scale += 0.05;
   yesBtn.style.transform = `scale(${scale})`;
-}, 1000);
+}, 2000);
 
 // Move NO button around the screen 😈
 function moveNoButton() {
@@ -39,7 +39,8 @@ yesBtn.addEventListener("click", () => {
       text-align:center;
       color:#ff2f68;
     ">
-      <h1>YAY!!! 💘💘💘<br>You just made me the happiest 😍</h1>
+      <h1>PALDO, you never really had a choice hehe!!! <br> You made me the happiest man rn </h1>
     </div>
   `;
 });
+
